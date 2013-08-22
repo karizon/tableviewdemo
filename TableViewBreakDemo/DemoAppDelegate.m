@@ -6,8 +6,7 @@
 //  Copyright (c) 2013 Geoff Harrison. All rights reserved.
 //
 
-// This application is designed to showcase a fairly seriosu bug in 10.9 Mavericks where TableView
-// Delegation stops working appropriately when a window no longer has focus.
+// Apparently this bug is fixable.  thanks to corbin_dunn for the fix
 
 #import "DemoAppDelegate.h"
 
@@ -40,7 +39,7 @@
             usleep(250000);
             NSLog(@"Reload Data Event triggered");
             @synchronized(_demoTable) {
-                [_demoTable reloadData];
+                [_demoTable performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:NO];
             }
             @synchronized(refreshQueue) {
                 __block NSOperation *new_operation = [self generateRefreshOperation];
