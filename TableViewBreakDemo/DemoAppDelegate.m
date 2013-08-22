@@ -17,6 +17,7 @@
 
 - (IBAction)exitApplication:(id)sender {
     NSLog(@"Table View Break Demo: Exiting Gracefully");
+    exit(0);
 }
 
 @end
