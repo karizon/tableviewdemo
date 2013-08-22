@@ -15,4 +15,8 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)exitApplication:(id)sender {
+    NSLog(@"Table View Break Demo: Exiting Gracefully");
+}
+
 @end

@@ -12,4 +12,7 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+
+- (IBAction)exitApplication:(id)sender;
+
 @end
