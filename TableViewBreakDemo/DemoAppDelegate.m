@@ -6,6 +6,9 @@
 //  Copyright (c) 2013 Geoff Harrison. All rights reserved.
 //
 
+// This application is designed to showcase a fairly seriosu bug in 10.9 Mavericks where TableView
+// Delegation stops working appropriately when a window no longer has focus.
+
 #import "DemoAppDelegate.h"
 
 @implementation DemoAppDelegate
