@@ -8,10 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface DemoAppDelegate : NSObject <NSApplicationDelegate>
+@interface DemoAppDelegate : NSObject <NSApplicationDelegate> {
+    NSOperationQueue *refreshQueue;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (weak) IBOutlet NSTableView *demoTable;
 
 - (IBAction)exitApplication:(id)sender;
 
