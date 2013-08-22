@@ -14,21 +14,7 @@
 		0AC52F5D17C511FC00F4EE87 /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC52F5C17C511FC00F4EE87 /* DemoAppDelegate.m */; };
 		0AC52F6017C511FC00F4EE87 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AC52F5E17C511FC00F4EE87 /* MainMenu.xib */; };
 		0AC52F6217C511FC00F4EE87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC52F6117C511FC00F4EE87 /* Images.xcassets */; };
-		0AC52F6917C511FC00F4EE87 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC52F6817C511FC00F4EE87 /* XCTest.framework */; };
-		0AC52F6A17C511FC00F4EE87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC52F4917C511FC00F4EE87 /* Cocoa.framework */; };
-		0AC52F7217C511FC00F4EE87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AC52F7017C511FC00F4EE87 /* InfoPlist.strings */; };
-		0AC52F7417C511FC00F4EE87 /* TableViewBreakDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC52F7317C511FC00F4EE87 /* TableViewBreakDemoTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0AC52F6B17C511FC00F4EE87 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0AC52F3E17C511FC00F4EE87 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0AC52F4517C511FC00F4EE87;
-			remoteInfo = TableViewBreakDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0AC52F4617C511FC00F4EE87 /* TableViewBreakDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewBreakDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,11 +31,7 @@
 		0AC52F5C17C511FC00F4EE87 /* DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
 		0AC52F5F17C511FC00F4EE87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0AC52F6117C511FC00F4EE87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0AC52F6717C511FC00F4EE87 /* TableViewBreakDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewBreakDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC52F6817C511FC00F4EE87 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		0AC52F6F17C511FC00F4EE87 /* TableViewBreakDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewBreakDemoTests-Info.plist"; sourceTree = "<group>"; };
-		0AC52F7117C511FC00F4EE87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0AC52F7317C511FC00F4EE87 /* TableViewBreakDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewBreakDemoTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,15 +43,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0AC52F6417C511FC00F4EE87 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0AC52F6A17C511FC00F4EE87 /* Cocoa.framework in Frameworks */,
-				0AC52F6917C511FC00F4EE87 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				0AC52F4F17C511FC00F4EE87 /* TableViewBreakDemo */,
-				0AC52F6D17C511FC00F4EE87 /* TableViewBreakDemoTests */,
 				0AC52F4817C511FC00F4EE87 /* Frameworks */,
 				0AC52F4717C511FC00F4EE87 /* Products */,
 			);
@@ -87,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				0AC52F4617C511FC00F4EE87 /* TableViewBreakDemo.app */,
-				0AC52F6717C511FC00F4EE87 /* TableViewBreakDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,24 +107,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0AC52F6D17C511FC00F4EE87 /* TableViewBreakDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				0AC52F7317C511FC00F4EE87 /* TableViewBreakDemoTests.m */,
-				0AC52F6E17C511FC00F4EE87 /* Supporting Files */,
-			);
-			path = TableViewBreakDemoTests;
-			sourceTree = "<group>";
-		};
-		0AC52F6E17C511FC00F4EE87 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0AC52F6F17C511FC00F4EE87 /* TableViewBreakDemoTests-Info.plist */,
-				0AC52F7017C511FC00F4EE87 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,24 +127,6 @@
 			productReference = 0AC52F4617C511FC00F4EE87 /* TableViewBreakDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0AC52F6617C511FC00F4EE87 /* TableViewBreakDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0AC52F7A17C511FC00F4EE87 /* Build configuration list for PBXNativeTarget "TableViewBreakDemoTests" */;
-			buildPhases = (
-				0AC52F6317C511FC00F4EE87 /* Sources */,
-				0AC52F6417C511FC00F4EE87 /* Frameworks */,
-				0AC52F6517C511FC00F4EE87 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0AC52F6C17C511FC00F4EE87 /* PBXTargetDependency */,
-			);
-			name = TableViewBreakDemoTests;
-			productName = TableViewBreakDemoTests;
-			productReference = 0AC52F6717C511FC00F4EE87 /* TableViewBreakDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,11 +136,6 @@
 				CLASSPREFIX = Demo;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Geoff Harrison";
-				TargetAttributes = {
-					0AC52F6617C511FC00F4EE87 = {
-						TestTargetID = 0AC52F4517C511FC00F4EE87;
-					};
-				};
 			};
 			buildConfigurationList = 0AC52F4117C511FC00F4EE87 /* Build configuration list for PBXProject "TableViewBreakDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,7 +151,6 @@
 			projectRoot = "";
 			targets = (
 				0AC52F4517C511FC00F4EE87 /* TableViewBreakDemo */,
-				0AC52F6617C511FC00F4EE87 /* TableViewBreakDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,14 +167,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0AC52F6517C511FC00F4EE87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0AC52F7217C511FC00F4EE87 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,23 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0AC52F6317C511FC00F4EE87 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0AC52F7417C511FC00F4EE87 /* TableViewBreakDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0AC52F6C17C511FC00F4EE87 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0AC52F4517C511FC00F4EE87 /* TableViewBreakDemo */;
-			targetProxy = 0AC52F6B17C511FC00F4EE87 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0AC52F5217C511FC00F4EE87 /* InfoPlist.strings */ = {
@@ -299,14 +204,6 @@
 				0AC52F5F17C511FC00F4EE87 /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		0AC52F7017C511FC00F4EE87 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0AC52F7117C511FC00F4EE87 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -408,46 +305,6 @@
 			};
 			name = Release;
 		};
-		0AC52F7B17C511FC00F4EE87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewBreakDemo.app/Contents/MacOS/TableViewBreakDemo";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TableViewBreakDemo/TableViewBreakDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TableViewBreakDemoTests/TableViewBreakDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		0AC52F7C17C511FC00F4EE87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewBreakDemo.app/Contents/MacOS/TableViewBreakDemo";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TableViewBreakDemo/TableViewBreakDemo-Prefix.pch";
-				INFOPLIST_FILE = "TableViewBreakDemoTests/TableViewBreakDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -467,14 +324,7 @@
 				0AC52F7917C511FC00F4EE87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		0AC52F7A17C511FC00F4EE87 /* Build configuration list for PBXNativeTarget "TableViewBreakDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0AC52F7B17C511FC00F4EE87 /* Debug */,
-				0AC52F7C17C511FC00F4EE87 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
